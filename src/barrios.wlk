@@ -1,3 +1,6 @@
+import Elementos.*
+import plagas.*
+
 class Barrio{
 	const elementos = []	
 	
@@ -12,4 +15,3 @@ class Barrio{
 	method cantidadBuenos() = elementos.count{e => e.esBueno()}
 	method cantidadNoBuenos() = elementos.count {e => not e.esBueno()}
 }
-tert
